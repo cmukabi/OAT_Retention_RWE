@@ -1,0 +1,24 @@
+# RStudio temporary files
+.Rproj.user/
+.Rhistory
+.RData
+
+# macOS
+.DS_Store
+
+# Backup reports
+*_backup.qmd
+*_backup.html
+*_backup_files/
+
+# Quarto temporary files
+.quarto/
+
+# Backup scripts
+*_backup.R
+
+# Backup scripts
+*_backup.R
+
+# Exclude obsolete partial dataset
+ data/synthtic_oat_cohort.csv
