@@ -16,50 +16,17 @@ execute:
 #| label: setup
 #| include: false
 
-project_dir <- path.expand(
-  "~/Documents/R_Projects/OAT_Retention_RWE"
-)
-
 oat_data <- read.csv(
-  file.path(
-    project_dir,
-    "data",
-    "synthetic_oat_cohort.csv"
-  )
+  file.path("data", "synthetic_oat_cohort.csv")
 )
 
 results <- read.csv(
-  file.path(
-    project_dir,
-    "oat_retention_results.csv"
-  )
-)
-```
-
-```{r}
-# Setup: load the synthetic dataset and results
-
-
-
-project_dir <- path.expand(
-  "~/Documents/R_Projects/OAT_Retention_RWE"
-)
-
-oat_data <- read.csv(
-  file.path(project_dir, "data", "synthetic_oat_cohort.csv")
-)
-
-results <- read.csv(
-  file.path(project_dir, "oat_retention_results.csv")
+  "oat_retention_results.csv"
 )
 
 adjusted_retention <- read.csv(
-  file.path(
-    project_dir,
-    "oat_retention_adjusted_retention.csv"
-  )
+  "oat_retention_adjusted_retention.csv"
 )
-
 ```
 
 ## 1. Study objective

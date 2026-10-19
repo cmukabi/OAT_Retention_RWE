@@ -6,12 +6,7 @@
 # ============================================================
 
 # 1. Project setup --------------------------------------------
-
-project_dir <- path.expand(
-  "~/Documents/R_Projects/OAT_Retention_RWE"
-)
-
-setwd(project_dir)
+# Run this script from the OAT_Retention_RWE RStudio project.
 
 # Generate the synthetic dataset
 source(
